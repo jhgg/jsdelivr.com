@@ -11,3 +11,9 @@ scan.php -  It is run every time a change is made to the repo. It scans files/ d
 To get it to work copy some directories from the Github repo into the files/ directory and run scan.php.
 
 It will populate the DB. Make sure you change the javascript to point to your local server for ajax requests.
+
+
+**WARNING**
+
+This code will make you wanna kill yourself.
+Only experienced developers should attempt at reading this repo.
