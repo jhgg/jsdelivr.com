@@ -10,40 +10,40 @@ $query = mysql_query("SELECT DISTINCT `name` from `jimaek_jsdelivr`.`files` ORDE
 
 while ($row = mysql_fetch_assoc($query)) {
 
-	$name = $row['name'];
-	$zip = $name.'.zip';
-	$versione = runqr2("select version from `jimaek_jsdelivr`.`files` where `name`='$name' ORDER BY `version` DESC ");
-	$versions = $versione;
-	natsort($versione);
-	$latestver = end($versione);
-	$file_info  = parse_ini_file("../www/files/$name/info.ini");
-	$author  = $file_info ['author'];
-	$homepage  = $file_info ['homepage'];
-	$description = $file_info ['description'];
-	$mainfile = $file_info ['mainfile'];
-	$github = $file_info ['github'];
-	foreach($versions as $version){
-		$filenames = runqr("select filename from `jimaek_jsdelivr`.`files` where `name`='$name' and `version`='$version'");
-		$filenames  = explode(",", $filenames['filename']);
-		$asset[] =   array(
-					'version' => $version,
-					"files" => $filenames				
-		);
-	}
-	$package[] =  array( 
-					"name" => $name,
-					"zip" => $zip,
-					"mainfile" => $mainfile,
-					"lastversion" => $latestver,
-					"versions" => $versions,
-					"description" => $description,
-					"homepage" => $homepage,
-					"github" => $github,
-					"author" => $author,
-					"assets" => $asset
-					);
-	
-	$asset = '';
+    $name = $row['name'];
+    $zip = $name.'.zip';
+    $versione = runqr2("select version from `jimaek_jsdelivr`.`files` where `name`='$name' ORDER BY `version` DESC ");
+    $versions = $versione;
+    natsort($versione);
+    $latestver = end($versione);
+    $file_info  = parse_ini_file("../www/files/$name/info.ini");
+    $author  = $file_info ['author'];
+    $homepage  = $file_info ['homepage'];
+    $description = $file_info ['description'];
+    $mainfile = $file_info ['mainfile'];
+    $github = $file_info ['github'];
+    foreach($versions as $version){
+        $filenames = runqr("select filename from `jimaek_jsdelivr`.`files` where `name`='$name' and `version`='$version'");
+        $filenames  = explode(",", $filenames['filename']);
+        $asset[] =   array(
+                    'version' => $version,
+                    "files" => $filenames
+        );
+    }
+    $package[] =  array(
+                    "name" => $name,
+                    "zip" => $zip,
+                    "mainfile" => $mainfile,
+                    "lastversion" => $latestver,
+                    "versions" => $versions,
+                    "description" => $description,
+                    "homepage" => $homepage,
+                    "github" => $github,
+                    "author" => $author,
+                    "assets" => $asset
+                    );
+
+    $asset = '';
 }
 
 $fpackage = array ("package" => $package);

@@ -1,29 +1,29 @@
-﻿<?php include('header.php'); ?> 
+﻿<?php include('header.php'); ?>
 <body>
 <a href="https://github.com/jimaek/jsdelivr"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
-	<div class="container">
-		<header>
-			<h1><a href="index.php"><img src="images/jsdelivr-logo.png" alt="jsdelivr.com"></a></h1>
-			<div id="plugins">
+    <div class="container">
+        <header>
+            <h1><a href="index.php"><img src="images/jsdelivr-logo.png" alt="jsdelivr.com"></a></h1>
+            <div id="plugins">
 <a href="http://wordpress.org/extend/plugins/jsdelivr-wordpress-cdn-plugin/"><img width="40" height="40" alt="Get jsDelivr for WordPress" title="Get WordPress Plugin" src="images/wordpress-logo-square.png"></a>
 <!--<img width="40" height="40" alt="Get jsDelivr for Joomla" title="Joomla plugin coming *not* soon" src="images/joomla-s.png">
 <img width="40" height="40" alt="Get jsDelivr for Drupal" title="Drupal plugin coming *not* soon" src="images/drupal.png">-->
 </div>
-			<nav>
-				<ul>
-					<li><a href="network.php">Network</a></li>
-					<li><a href="about.php">About</a></li>
-					<li><a href="faq.php">FAQ</a></li>
-					<li><a target="_blank" href="http://blog.jsdelivr.com">Blog <i class="icon-share-alt icon-white"></i></a></li>
-					<li id="submit" ><a href="javascript:UserVoice.showPopupWidget({widget_key: 'RYRfIYEaw1skhIF0af2kQ'});">Submit</a></li>
-				</ul>
-			</nav>
-		</header>
+            <nav>
+                <ul>
+                    <li><a href="network.php">Network</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="faq.php">FAQ</a></li>
+                    <li><a target="_blank" href="http://blog.jsdelivr.com">Blog <i class="icon-share-alt icon-white"></i></a></li>
+                    <li id="submit" ><a href="javascript:UserVoice.showPopupWidget({widget_key: 'RYRfIYEaw1skhIF0af2kQ'});">Submit</a></li>
+                </ul>
+            </nav>
+        </header>
 
 <div class="row first single">
-		<div class="span11">
-		  <h3>Sponsorships</h3>
-		  
+        <div class="span11">
+          <h3>Sponsorships</h3>
+
 <h2>About</h2>
 <p>jsDelivr is a free CDN (Content Delivery Network) where any web developer can host their files, including CSS, fonts, JavaScript, jQuery plugins, etc.</p>
 <p>
@@ -40,20 +40,20 @@ Currently jsDelivr is sponsored by:
    <li> CDN.NET - Traffic and SSL</li>
     <li>Cedexis - Load balancing services.</li>
    <li> UserVoice - Unlimited plan of their product</li>
-   <li>KnightSwarm - 1 VPS in Netherlands with plenty of bandwidth</li> 
-   <li>FAPVPS - 1 VPS in USA</li> 
-   <li>OISSITE - 1 VPS in USA</li> 
-   <li>Leapswitch - 2 VPS in Portugal and Ukraine</li> 
-   <li>Prometeus - 1 VPS in Italy</li> 
-   <li>FinnDNS - 1 VPS in France with Unlimited 1Gbps traffic</li> 
-   <li>Supremebytes - 1 VPS in Los Angeles with plenty of 1Gbps traffic</li> 
-   <li>SecureAX - 1 VPS in Singapore</li> 
-   <li>nDeviX - 1 VPS in Kansas</li> 
-   <li>Nodepop  - 1 VPS in Fremont</li> 
-   <li>SouthBendServers  - 1 VPS in South Bend</li> 
-   <li>Jack  - 1 VPS in Italy</li> 
-   <li>CloudShards  - 1 VPS in Buffalo</li>  
-   <li>AlpineDC  - 1 VPS in Switzerland</li> 
+   <li>KnightSwarm - 1 VPS in Netherlands with plenty of bandwidth</li>
+   <li>FAPVPS - 1 VPS in USA</li>
+   <li>OISSITE - 1 VPS in USA</li>
+   <li>Leapswitch - 2 VPS in Portugal and Ukraine</li>
+   <li>Prometeus - 1 VPS in Italy</li>
+   <li>FinnDNS - 1 VPS in France with Unlimited 1Gbps traffic</li>
+   <li>Supremebytes - 1 VPS in Los Angeles with plenty of 1Gbps traffic</li>
+   <li>SecureAX - 1 VPS in Singapore</li>
+   <li>nDeviX - 1 VPS in Kansas</li>
+   <li>Nodepop  - 1 VPS in Fremont</li>
+   <li>SouthBendServers  - 1 VPS in South Bend</li>
+   <li>Jack  - 1 VPS in Italy</li>
+   <li>CloudShards  - 1 VPS in Buffalo</li>
+   <li>AlpineDC  - 1 VPS in Switzerland</li>
    <li>Jetdino - 1 VPS in Indonesia</li>
 </ul>
 </p>
@@ -63,7 +63,7 @@ jsDelivr has been around from June of 2012 and is getting more popular every mon
 
 <h2>What we are looking for</h2>
 <ul>
-<li> CDN Providers - Min Requirements: At least 5TB of monthly traffic. Custom CNAME. Custom CNAME SSL. Pull Zone.</li> 
+<li> CDN Providers - Min Requirements: At least 5TB of monthly traffic. Custom CNAME. Custom CNAME SSL. Pull Zone.</li>
 <ul><li> Hosting companies that resell major CDN providers</li>
    <li>  Hosting companies that have their own CDN networks.</li></ul>
 
@@ -86,9 +86,9 @@ jsDelivr has been around from June of 2012 and is getting more popular every mon
 </ul>
 *We wont offer all of the above to all sponsors, it depends on the offer.
 
-		 <br/>
-		  
-		</div>
+         <br/>
+
+        </div>
 </div>
 
 

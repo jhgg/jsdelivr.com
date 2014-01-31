@@ -44,33 +44,33 @@ var delay = (function(){
 
 //search
 function gogo()
-	{
-	var file2 = window.location.hash;
-	file =  file2.replace(/\#!/g,"");
-	if(file){
-			document.getElementById('s').value = file;				
-		}
-		$(".search_input").focus();
-		$(".search_input").keyup(function(){ 
-		delay(function(){
+    {
+    var file2 = window.location.hash;
+    file =  file2.replace(/\#!/g,"");
+    if(file){
+            document.getElementById('s').value = file;
+        }
+        $(".search_input").focus();
+        $(".search_input").keyup(function(){
+        delay(function(){
 
-	var search_input = $('.search_input').val();
-	var keyword= encodeURIComponent(search_input); 
-	var yt_url='http://www.jsdelivr.com/code/suggest.php?q='+keyword;  
-	$.ajax({
-		type: "GET",
-		url: yt_url,
-	
-		success: function(response)
-	{
-		$("#result").html('');
-		if(response.length)
-		{ 
-			$("#result").append(response); 
-		}
-	}	
- 
-	}); 
-	} , 600 ); 
-	}).keyup();
+    var search_input = $('.search_input').val();
+    var keyword= encodeURIComponent(search_input);
+    var yt_url='http://www.jsdelivr.com/code/suggest.php?q='+keyword;
+    $.ajax({
+        type: "GET",
+        url: yt_url,
+
+        success: function(response)
+    {
+        $("#result").html('');
+        if(response.length)
+        {
+            $("#result").append(response);
+        }
+    }
+
+    });
+    } , 600 );
+    }).keyup();
 }

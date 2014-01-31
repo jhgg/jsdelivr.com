@@ -21,19 +21,19 @@ $plugin_directory = array_diff(scandir($directory), array('..', '.', 'info.ini')
  foreach ($plugin_directory as &$plugin_dir){
  //in files folder. Have list of plugins folders
  $data['project'] = $plugin_dir;
-	$version_directory = array_diff(scandir("files/$plugin_dir"), array('..', '.', 'info.ini'));
-	natsort($version_directory);
-		foreach ($version_directory as &$ver_dir){
-		//in versions plugins folder. Have list of version folders
-		$data['version'] = $ver_dir;
-		if($ver_dir)$result = find_all_files("files/$plugin_dir/$ver_dir/",$plugin_dir,$ver_dir);
-			$data['files'] = implode(",", $result);
-			db($data['project'],'','',$data['version'],$data['files']);
-			
+    $version_directory = array_diff(scandir("files/$plugin_dir"), array('..', '.', 'info.ini'));
+    natsort($version_directory);
+        foreach ($version_directory as &$ver_dir){
+        //in versions plugins folder. Have list of version folders
+        $data['version'] = $ver_dir;
+        if($ver_dir)$result = find_all_files("files/$plugin_dir/$ver_dir/",$plugin_dir,$ver_dir);
+            $data['files'] = implode(",", $result);
+            db($data['project'],'','',$data['version'],$data['files']);
 
-		}
-		
-	 
+
+        }
+
+
  }
 
 
@@ -48,13 +48,13 @@ if(!$plugin_dir)$sdir = $sdir.'/';
         if($value === '.' || $value === '..' || $value === 'info.ini') {continue;}
         if(is_file("$dir/$value")) {$result[]="$sdir$value";continue;}
         foreach(find_all_files("$dir/$value") as $value)
-        {	
-		$value = str_replace("files/$plugin_dir/$ver_dir//",'',$value);
-			$result[]=$value;
+        {
+        $value = str_replace("files/$plugin_dir/$ver_dir//",'',$value);
+            $result[]=$value;
         }
     }
     return $result;
-} 
+}
 
 function db($name,$homepage,$author,$version,$filename){
 if($name == 'jslock')return 0;
@@ -73,7 +73,7 @@ if (!mysql_query("INSERT  INTO `jimaek_jsdelivr`.`files` (`name`,`homepage`,`aut
   }
   else
   {
-  echo "Succesfuly added $name v$version! <br/>";  
+  echo "Succesfuly added $name v$version! <br/>";
   ob_flush(); flush();
   }
 mysql_close();

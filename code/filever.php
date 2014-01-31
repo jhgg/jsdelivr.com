@@ -1,6 +1,6 @@
 <?php
 error_reporting(E_ERROR | E_WARNING | E_PARSE);
-include('config.php'); 
+include('config.php');
 
 $version = $_GET["v"];
 $input = $_GET["n"];
@@ -12,17 +12,17 @@ $query = mysql_query("SELECT `filename` FROM `$dbname`.`files`  WHERE name=\"$in
 while ($row = mysql_fetch_assoc($query)) {
 $filenames = explode(",", $row['filename']);
 echo '<div class="files">
-		    <table class="table table-striped table-hover">		
-				<thead>
-				<tr><th>CDN Files</th></tr>
-				</thead>
-				<tbody>	';
+            <table class="table table-striped table-hover">
+                <thead>
+                <tr><th>CDN Files</th></tr>
+                </thead>
+                <tbody> ';
 foreach ($filenames as &$filename) {
     if($filename)echo "<tr><td>//cdn.jsdelivr.net/$input/$version/$filename</td></tr>";
 }
 echo '</tbody>
-			</table>
-		</div> <script>$(".files").showMore();</script>';
+            </table>
+        </div> <script>$(".files").showMore();</script>';
 }
 
 

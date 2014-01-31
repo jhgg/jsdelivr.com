@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ERROR | E_WARNING | E_PARSE);
-include('config.php'); 
-include('functions.php'); 
+include('config.php');
+include('functions.php');
 
 $version = $_GET["v"];
 $input = $_GET["n"];
@@ -22,13 +22,13 @@ $name2 = str_replace('.','',$name);
     </div>
     <div class="modal-body">
     <textarea class="field span11" rows="15">';
-	foreach($filenames as $filename){
-		if(checkext($filename)=='js')
-		{
-		echo '<script type="text/javascript" src="//cdn.jsdelivr.net/'.$input.'/'.$version.'/'.$filename.'">&#13;';}elseif(checkext($filename)=='css'){
-		echo '<link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/'.$input.'/'.$version.'/'.$filename.'" />&#13;';}
-		}
-	echo '</textarea>    
+    foreach($filenames as $filename){
+        if(checkext($filename)=='js')
+        {
+        echo '<script type="text/javascript" src="//cdn.jsdelivr.net/'.$input.'/'.$version.'/'.$filename.'">&#13;';}elseif(checkext($filename)=='css'){
+        echo '<link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/'.$input.'/'.$version.'/'.$filename.'" />&#13;';}
+        }
+    echo '</textarea>
     </div>
 </div>';
 

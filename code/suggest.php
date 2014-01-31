@@ -1,8 +1,8 @@
-<?php 
+<?php
 //header('Expires: '.gmdate('D, d M Y H:i:s \G\M\T', time() + (24 * 60 * 60)));
 error_reporting(E_ERROR);
-include('config.php'); 
-include('functions.php'); 
+include('config.php');
+include('functions.php');
 
 
 if(!$google){
@@ -20,11 +20,11 @@ mysql_connect('localhost',$dbuser, $dbpass);
 @mysql_select_db($dbname) or die( "Unable to select database");
 $input = mysql_real_escape_string($input);
 switch ($input){
-	case 'bootstrap':
-	$query = mysql_query("select * from `$dbname`.`files` WHERE name='bootstrap' ORDER BY `version` DESC");
-	break;
-	default:
-	$query = mysql_query("SELECT * FROM  ( select * from `$dbname`.`files` WHERE name LIKE '%$input%' ORDER BY `version` DESC) as tmp_table GROUP BY `name` LIMIT 10");
+    case 'bootstrap':
+    $query = mysql_query("select * from `$dbname`.`files` WHERE name='bootstrap' ORDER BY `version` DESC");
+    break;
+    default:
+    $query = mysql_query("SELECT * FROM  ( select * from `$dbname`.`files` WHERE name LIKE '%$input%' ORDER BY `version` DESC) as tmp_table GROUP BY `name` LIMIT 10");
 }
 
 while ($row = mysql_fetch_assoc($query)) {
@@ -35,7 +35,7 @@ $filenames = explode(",", $row['filename']);
 $file_info = parse_ini_file("../files/$name/info.ini");
 $author = $file_info ['author'];
 $homepage = $file_info ['homepage'];
-$description = $file_info ['description']; 
+$description = $file_info ['description'];
 $github = $file_info ['github'];
 if(empty($github)){ $github = "http://github.com";}
 
@@ -46,7 +46,7 @@ buildresult($name,$ver,$filenames,$author,$homepage,$github,$description,$arra2,
 $arra2 ='';
 $names[] .= $name; //build array with all names
 $vers[$name] .= $ver;
-$filenamesarr[$name] = array($filenames); 
+$filenamesarr[$name] = array($filenames);
 
 if($name==$input)break;
 }
@@ -62,44 +62,44 @@ $(function(){
   var filelist = 'fileli'+fileg;
   var versionli = 'ver'+fileg;
   var modalli = fileg+'modal';
- 
+
   if(!file){
-			file = document.getElementById('s').value;				
-		}
+            file = document.getElementById('s').value;
+        }
   file =  file.replace(/\#!/g,'');
     var yt_url='http://$domain/code/filever.php?v='+version+'&n='+file;
-	$.ajax({
-		type: 'GET',
-		url: yt_url,
-	
-		success: function(response)
-	{
-		$('#' + filelist).html('');
-		if(response.length)
-		{ 
-			$('#' + filelist).append(response); 
-			$('#' + versionli).text(version);
-		}
-		
-	}
+    $.ajax({
+        type: 'GET',
+        url: yt_url,
+
+        success: function(response)
+    {
+        $('#' + filelist).html('');
+        if(response.length)
+        {
+            $('#' + filelist).append(response);
+            $('#' + versionli).text(version);
+        }
+
+    }
   });
-  
+
    var yt_url='http://$domain/code/integrationver.php?v='+version+'&n='+file;
-	$.ajax({
-		type: 'GET',
-		url: yt_url,
-	
-		success: function(response)
-	{
-		$('#' + modalli).html('');
-		if(response.length)
-		{ 
-			$('#' + modalli).append(response); 
-		}
-		
-	}
+    $.ajax({
+        type: 'GET',
+        url: yt_url,
+
+        success: function(response)
+    {
+        $('#' + modalli).html('');
+        if(response.length)
+        {
+            $('#' + modalli).append(response);
+        }
+
+    }
   });
-  
+
 });
 return false;
 });
