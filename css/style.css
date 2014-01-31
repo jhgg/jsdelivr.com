@@ -697,3 +697,8 @@ div.noresults ul.tweet_list li,
 .tags {
     display: inline;
 }
+
+iframe {
+    border-width: 0;
+    overflow: hidden;
+}

@@ -37,8 +37,7 @@ If any of them goes down all traffic automatically will be switched to the remai
 jsDelivr is the only public CDN to use multiple providers which makes it the most reliable of them all.</p>
           <h2>Security</h2>
           <p>All files are hosted on a Push zone on NetDNA servers. The only way to access the files is by FTP using a whitelisted IP address.</p>
-          <h3>Sponsors</h1>
-          <p>
+          <h3>Sponsors</h3>
           <h2>CDN.NET</h2>
           <p>CDN.NET is one of our CDN providers. They offer us worldwide coverage and the best possible speed for all users around the globe.</p>
           <h2>Cedexis</h2>
@@ -77,7 +76,7 @@ jsDelivr is the only public CDN to use multiple providers which makes it the mos
           <p><a href="https://AlpineDC.ch">AlpineDC</a> is sponsoring us with custom POP location in Switzerland.</p>
           <h2>Jetdino</h2>
           <p><a href="https://jetdino.com">Jetdino</a> is sponsoring us with custom POP location in Indonesia.</p>
-          </p>
+
           <hr/>
           <h3>Media/Mentions/Links</h3>
           <blockquote><a href="http://royal.pingdom.com/2013/05/22/web-dev-projects/">Interview with driving forces behind web dev projects jsDelivr & jSter</a>    <small><cite title="Source Title">Pingdom Interview</cite></small></blockquote>

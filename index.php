@@ -13,7 +13,7 @@
 <img width="40" height="40" alt="Get jsDelivr for Drupal" title="Drupal plugin coming *not* soon" src="images/drupal.png">-->
 </div>
 <div id="sponsortop">
-        <a href="https://portal.cdn.net/priceplan/createfreetrialnocc/3?content=whycdnnet&utm_source=jsdelivr&utm_medium=banner&utm_campaign=sponsorship"><img alt="Sponsored by CDN.NET" src="images/cdnnet.png"></a>
+        <a href="https://portal.cdn.net/priceplan/createfreetrialnocc/3?content=whycdnnet&amp;utm_source=jsdelivr&amp;utm_medium=banner&amp;utm_campaign=sponsorship"><img alt="Sponsored by CDN.NET" src="images/cdnnet.png"></a>
         <a href="http://tracking.maxcdn.com/c/47243/36539/378"><img alt="Sponsored by MaxCDN" src="images/maxcdn.png"></a>
         <a href="http://www.cedexis.com"><img alt="Sponsored by Cedexis" src="images/cedexis.png"></a></div>
             <nav>
@@ -36,7 +36,7 @@
 include('code/suggest.php'); // If google bot then dont use ajax but simply generate a static html page with the results he requested.
 }else{
  ?>
-<img src="images/ajax-loader.gif"/>
+<img src="images/ajax-loader.gif" alt="Loading" width="16" height="16"/>
 <?php } ?>
 </div>
 <div class="modal hide" id="update" style="width:290px; margin-left: -170px;">

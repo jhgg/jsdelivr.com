@@ -35,6 +35,7 @@ And by using GitHub, we allow the community to fully interact with jsDelivr by a
 <h2>Sponsors</h2>
 <p>
 Currently jsDelivr is sponsored by:
+</p>
 <ul>
    <li> NetDNA - Unlimited traffic and SSL</li>
    <li> CDN.NET - Traffic and SSL</li>
@@ -56,7 +57,7 @@ Currently jsDelivr is sponsored by:
    <li>AlpineDC  - 1 VPS in Switzerland</li>
    <li>Jetdino - 1 VPS in Indonesia</li>
 </ul>
-</p>
+
 <h2>Info</h2>
 <p>
 jsDelivr has been around from June of 2012 and is getting more popular every month. Currently serves around 10TB of traffic per month.</p>
