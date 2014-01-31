@@ -10,9 +10,14 @@ scan.php -  It is run every time a change is made to the repo. It scans files/ d
 
 packagesmain.php - used by API
 
-To get it to work copy some directories from the Github repo into the files/ directory and run scan.php.
+To get it to work:
 
-It will populate the DB. Make sure you change the javascript to point to your local server for ajax requests.
+* Create files/ directory and put some folders from the main repo
+* Modify config.php with your DB login information
+* Modify scan.php with DB login information (yeap its stupid)
+* Run scan.php and the DB should get populated with data
+* Modify custom.js:59 and change the hostname to point to your local setup.
+* Modify footer.php:33 and change the hostname to point to your local setup like above.
 
 
 **WARNING**
