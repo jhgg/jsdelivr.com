@@ -11,8 +11,8 @@ Dev: <a href="http://api.jsdelivr.com/packages.php">Packages</a> - <a href="http
 Support us by donating Bitcoins<br/>1HZrTcdVieoDsihhBhE3gcnGxR9isJENMT<br/>
     </footer>
 </div> <!-- /container -->
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-<script type='text/javascript' src='//cdn.jsdelivr.net/bootstrap/2.2.2/js/bootstrap.min.js' ></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type='text/javascript' src='//cdn.jsdelivr.net/bootstrap/2.3.2/js/bootstrap.min.js' ></script>
 <script type='text/javascript' src='//cdn.jsdelivr.net/sharrre/1.3.4/jquery.sharrre-1.3.4.min.js' ></script>
 <script type='text/javascript' src='js/custom.js' ></script>
 <script type='text/javascript' src='js/jquery.showMore.js'></script>
