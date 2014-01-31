@@ -89,8 +89,8 @@ function parsefilenames($name,$vers,$filenamesarr){
         foreach($filenames as $filename){
         if(checkext($filename)=='js')
         {
-        echo '<script type="text/javascript" src="//cdn.jsdelivr.net/'.$name.'/'.$ver.'/'.$filename.'"></script>&#13;';}elseif(checkext($filename)=='css'){
-        echo '<link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/'.$name.'/'.$ver.'/'.$filename.'" />&#13;';}
+        echo '<script src="//cdn.jsdelivr.net/'.$name.'/'.$ver.'/'.$filename.'"></script>&#13;';}elseif(checkext($filename)=='css'){
+        echo '<link rel="stylesheet" href="//cdn.jsdelivr.net/'.$name.'/'.$ver.'/'.$filename.'" />&#13;';}
         }
     }
 

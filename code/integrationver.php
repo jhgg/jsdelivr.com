@@ -25,8 +25,8 @@ $name2 = str_replace('.','',$name);
     foreach($filenames as $filename){
         if(checkext($filename)=='js')
         {
-        echo '<script type="text/javascript" src="//cdn.jsdelivr.net/'.$input.'/'.$version.'/'.$filename.'">&#13;';}elseif(checkext($filename)=='css'){
-        echo '<link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/'.$input.'/'.$version.'/'.$filename.'" />&#13;';}
+        echo '<script src="//cdn.jsdelivr.net/'.$input.'/'.$version.'/'.$filename.'">&#13;';}elseif(checkext($filename)=='css'){
+        echo '<link rel="stylesheet" href="//cdn.jsdelivr.net/'.$input.'/'.$version.'/'.$filename.'" />&#13;';}
         }
     echo '</textarea>
     </div>

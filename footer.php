@@ -11,11 +11,11 @@ Dev: <a href="http://api.jsdelivr.com/packages.php">Packages</a> - <a href="http
 Support us by donating Bitcoins<br/>1HZrTcdVieoDsihhBhE3gcnGxR9isJENMT<br/>
     </footer>
 </div> <!-- /container -->
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script type='text/javascript' src='//cdn.jsdelivr.net/bootstrap/2.3.2/js/bootstrap.min.js' ></script>
-<script type='text/javascript' src='//cdn.jsdelivr.net/sharrre/1.3.4/jquery.sharrre-1.3.4.min.js' ></script>
-<script type='text/javascript' src='js/custom.js' ></script>
-<script type='text/javascript' src='js/jquery.showMore.js'></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src='//cdn.jsdelivr.net/bootstrap/2.3.2/js/bootstrap.min.js' ></script>
+<script src='//cdn.jsdelivr.net/sharrre/1.3.4/jquery.sharrre-1.3.4.min.js' ></script>
+<script src='js/custom.js' ></script>
+<script src='js/jquery.showMore.js'></script>
 <?php if(!$google){?>
 <script>
 // Search
@@ -53,27 +53,25 @@ var file = window.location.hash;
 </script>
 <?php } ?>
 
-<script type="text/javascript">
+<script>
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-31822709-1']);
-  _gaq.push(['_trackPageview']);
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-31822709-1']);
+    _gaq.push(['_trackPageview']);
 
-  (function() {
+    (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+    })();
 
-</script>
-    <script type="text/javascript">
     (function(w, d) { var a = function() { var a = d.createElement('script'); a.type = 'text/javascript';
     a.async = 'async'; a.src = '//' + ((w.location.protocol === 'https:') ? 's3.amazonaws.com/cdx-radar/' :
     'radar.cedexis.com/') + '01-11475-radar10.min.js'; d.body.appendChild(a); };
     if (w.addEventListener) { w.addEventListener('load', a, false); }
     else if (w.attachEvent) { w.attachEvent('onload', a); }
     }(window, document));
-    </script>
+</script>
 
 
   </body>
