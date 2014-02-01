@@ -1,12 +1,11 @@
-website
-=======
+# jsdelivr.com
 
-jsDelivr's official website at jsdelivr.com
+jsDelivr's official website at [jsdelivr.com](http://www.jsdelivr.com/)
 
 
-hash.php and timestamp.txt are used by WordPress plugin. 
+hash.php and timestamp.txt are used by WordPress plugin.
 
-scan.php -  It is run every time a change is made to the repo. It scans files/ directory and populates the database.
+scan.php -  It is run every time a change is made to the repo. It scans files/directory and populates the database.
 
 packagesmain.php - used by API
 
