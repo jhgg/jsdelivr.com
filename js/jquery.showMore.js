@@ -40,7 +40,7 @@
             this.isOpen = !this.isOpen;
         },
         open: function () {
-            this.isOpen = false
+            this.isOpen = false;
             this.toggle();
         },
         close: function () {
