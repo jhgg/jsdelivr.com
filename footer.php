@@ -2,7 +2,7 @@
             <div id="shareme" data-url="http://www.jsdelivr.com" data-text="jsDelivr - A free CDN for javascript and jquery plugins" data-title="share this page"></div>
         </div>
         <div class="sponsor">
-             Official sponsors:<br/>
+             Official sponsors:<br>
             <a href="http://www.uservoice.com">
                 <img alt="Sponsored by UserVoice" src="images/uservoice.png" width="122" height="27">
             </a>
@@ -17,7 +17,7 @@
                 <li>contact@jsdelivr.com | <a href="https://groups.google.com/forum/#!forum/jsdelivr">Mailing Group</a></li>
                 <li>Dev: <a href="http://api.jsdelivr.com/packages.php">Packages</a> - <a href="http://www.jsdelivr.com/hash.xml">Packages &amp; Hash</a></li>
                 <li>Design based on NASA.Code</li>
-                <li>Support us by donating Bitcoins<br/>1HZrTcdVieoDsihhBhE3gcnGxR9isJENMT</li>
+                <li>Support us by donating Bitcoins<br>1HZrTcdVieoDsihhBhE3gcnGxR9isJENMT</li>
             </ul>
         </footer>
     </div> <!-- /container -->

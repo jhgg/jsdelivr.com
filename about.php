@@ -140,7 +140,7 @@
                 <p>
                     <a href="https://jetdino.com">Jetdino</a> is sponsoring us with custom POP location in Indonesia.
                 </p>
-                <hr/>
+                <hr>
                 <h3>Media/Mentions/Links</h3>
                 <blockquote>
                     <a href="http://royal.pingdom.com/2013/05/22/web-dev-projects/">Interview with driving forces behind web dev projects jsDelivr & jSter</a><small><cite title="Source Title">Pingdom Interview</cite></small>
@@ -187,7 +187,7 @@
                 <blockquote>
                     <a href="http://habrahabr.ru/post/168329/">Обзор бесплатного CDN-хостинга JS библиотек jsDelivr (Russian)</a><small><cite title="Source Title">habrahabr.ru</cite></small>
                 </blockquote>
-                <br/>
+                <br>
                 <p>
                     <a href="http://trends.builtwith.com/cdn/jsDelivr">builtwith.com</a>
                 </p>

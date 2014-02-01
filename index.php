@@ -42,13 +42,13 @@
                     </p>
                 </div>
                 <label class="hide" for="s">Search:</label>
-                <input type="text" class="search_input" id="s" autofocus placeholder="What are you looking for?"/>
+                <input type="text" class="search_input" id="s" autofocus placeholder="What are you looking for?">
                 <div id="result">
 <?php if ($google) {
     include('code/suggest.php'); // If google bot then dont use ajax but simply generate a static html page with the results he requested.
     } else {
 ?>
-                    <img src="images/ajax-loader.gif" alt="Loading" width="16" height="16"/>
+                    <img src="images/ajax-loader.gif" alt="Loading" width="16" height="16">
 <?php } ?>
                 </div>
                 <div class="modal hide" id="update" style="width:290px; margin-left: -170px;">
@@ -57,7 +57,9 @@
                         <h3>A new version available?</h3>
                     </div>
                     <div class="modal-body">
-                        Please enter your email and press send. <br/>We will receive your request and will try to find a newer version of this project.<br/> If we can't we will contact you.
+                        Please enter your email and press send.<br>
+                        We will receive your request and will try to find a newer version of this project.<br>
+                        If we can't we will contact you.
                         <form method="post" action='code/newversion.php' name="update_form">
                             <input type="text" class="span3" name="project" id="project" placeholder="Project" readonly>
                             <input type="text" class="span3" name="email" id="email" placeholder="Email">

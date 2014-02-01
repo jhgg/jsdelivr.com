@@ -83,7 +83,7 @@ function db($name, $homepage, $author, $version, $filename) {
         echo mysql_error();
         exit;
     } else {
-        echo "Succesfuly added $name v$version! <br/>";
+        echo "Succesfuly added $name v$version!<br>";
         ob_flush();
         flush();
     }

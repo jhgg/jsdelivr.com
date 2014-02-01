@@ -21,7 +21,7 @@ $google = $_GET["_escaped_fragment_"]; // https://developers.google.com/webmaste
         <link rel="dns-prefetch" href="//widget.uservoice.com">
         <link rel="dns-prefetch" href="//by.uservoice.com">
         <link rel="dns-prefetch" href="//s3.amazonaws.com">
-        <link rel="prefetch" href="http://cdn.jsdelivr.net/bootstrap/2.3.2/img/glyphicons-halflings-white.png" />
+        <link rel="prefetch" href="http://cdn.jsdelivr.net/bootstrap/2.3.2/img/glyphicons-halflings-white.png">
         <!--[if lt IE 9]>
             <script src="//cdn.jsdelivr.net/html5shiv/3.7.0/html5shiv.js"></script>
         <![endif]-->
