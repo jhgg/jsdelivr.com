@@ -1,4 +1,5 @@
 <?php
+include('code/config.php');
 error_reporting(E_ERROR | E_PARSE);
 
 ini_set('output_buffering', 0);
@@ -6,8 +7,8 @@ ini_set('implicit_flush', 1);
 ob_end_flush();
 ob_start();
 
-mysql_connect('localhost', 'p', 'p');
-mysql_select_db('jimaek_jsdelivr') or die("Unable to select database 1");
+mysql_connect('localhost', $dbuser, $dbpass);
+mysql_select_db($dbname) or die("Unable to select database 1");
 mysql_query("TRUNCATE TABLE `files`;");
 mysql_close();
 
@@ -69,16 +70,17 @@ function find_all_files($dir, $plugin_dir, $ver_dir) {
 }
 
 function db($name, $homepage, $author, $version, $filename) {
+	include('code/config.php');
     if ($name == 'jslock')
         return 0;
-    mysql_connect('localhost', 'p', 'p');
-    @mysql_select_db('jimaek_jsdelivr') or die("Unable to select database 2");
+    mysql_connect('localhost', $dbuser, $dbpass);
+    @mysql_select_db($dbname) or die("Unable to select database 2");
     $s        = $name . '.zip,';
     $filename = str_replace($s, '', $filename);
     $s        = ',' . $name . '.zip';
     $filename = str_replace($s, '', $filename);
     // UPDATE `cdn`.`files` set filename\"$filename\" WHERE name=\"$name\"
-    if (!mysql_query("INSERT  INTO `jimaek_jsdelivr`.`files` (`name`,`homepage`,`author`,`version`,`filename`) VALUES ('$name','$homepage','$author','$version','$filename');")) {
+    if (!mysql_query("INSERT  INTO `$dbname`.`files` (`name`,`homepage`,`author`,`version`,`filename`) VALUES ('$name','$homepage','$author','$version','$filename');")) {
         echo 'Fail!';
         echo mysql_error();
         exit;

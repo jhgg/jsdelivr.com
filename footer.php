@@ -27,7 +27,7 @@
     <script src='js/custom.js'></script>
     <script src='js/jquery.showMore.js'></script>
 
-<?php if(!$google){?>
+<?php if(!$google){ include('code/config.php');?>
     <script>
         // Search
         $(document).ready(gogo());
@@ -40,7 +40,7 @@
 
                     var search_input = $(this).val();
                     var keyword = encodeURIComponent(search_input);
-                    var yt_url = 'http://www.jsdelivr.com/code/suggest.php?q=' + keyword;
+                    var yt_url = 'http://<?php echo $domain; ?>/code/suggest.php?q=' + keyword;
                     $.ajax({
                         type: "GET",
                         url: yt_url,

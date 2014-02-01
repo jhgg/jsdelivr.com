@@ -1,29 +1,30 @@
 <?php
+include('code/config.php');
 error_reporting(0);
 ini_set('memory_limit', '200M');
 ini_set('max_execution_time', '0');
 
 
-mysql_connect('localhost', 'j', 'j');
-@mysql_select_db('jimaek_jsdelivr') or die("Unable to select database");
-$query = mysql_query("SELECT DISTINCT `name` from `jimaek_jsdelivr`.`files` ORDER BY `name` ASC");
+mysql_connect('localhost', $dbuser, $dbpass);
+@mysql_select_db($dbname) or die("Unable to select database 1");
+$query = mysql_query("SELECT DISTINCT `name` from `$dbname`.`files` ORDER BY `name` ASC");
 
 while ($row = mysql_fetch_assoc($query)) {
 
     $name     = $row['name'];
     $zip      = $name . '.zip';
-    $versione = runqr2("select version from `jimaek_jsdelivr`.`files` where `name`='$name' ORDER BY `version` DESC ");
+    $versione = runqr2("select version from `$dbname`.`files` where `name`='$name' ORDER BY `version` DESC ");
     $versions = $versione;
     natsort($versione);
     $latestver   = end($versione);
-    $file_info   = parse_ini_file("../www/files/$name/info.ini");
+    $file_info   = parse_ini_file("files/$name/info.ini");
     $author      = $file_info['author'];
     $homepage    = $file_info['homepage'];
     $description = $file_info['description'];
     $mainfile    = $file_info['mainfile'];
     $github      = $file_info['github'];
     foreach ($versions as $version) {
-        $filenames = runqr("select filename from `jimaek_jsdelivr`.`files` where `name`='$name' and `version`='$version'");
+        $filenames = runqr("select filename from `$dbname`.`files` where `name`='$name' and `version`='$version'");
         $filenames = explode(",", $filenames['filename']);
         $asset[]   = array(
             'version' => $version,
@@ -53,8 +54,9 @@ header('Content-type: application/json');
 echo json_encode($fpackage);
 
 function runqr2($run) {
-    mysql_connect('localhost', 'j', '');
-    @mysql_select_db('jimaek_jsdelivr') or die("Unable to select database");
+	include('code/config.php');
+    mysql_connect('localhost', $dbuser, $dbpass);
+    @mysql_select_db($dbname) or die("Unable to select database 2");
     $query = mysql_query($run);
     $arr   = array();
     while ($result_array = mysql_fetch_row($query)) {
@@ -64,8 +66,9 @@ function runqr2($run) {
 }
 
 function runqr($run) {
-    mysql_connect('localhost', 'j', '');
-    @mysql_select_db('jimaek_jsdelivr') or die("Unable to select database");
+	include('code/config.php');
+    mysql_connect('localhost', $dbuser, $dbpass);
+    @mysql_select_db($dbname) or die("Unable to select database 3");
     $query  = mysql_query($run);
     $result = mysql_fetch_assoc($query);
     mysql_close();

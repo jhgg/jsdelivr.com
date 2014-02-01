@@ -1,5 +1,5 @@
 <?php
-
+include('code/config.php');
 $cachefile = 'cache/hash.cache';
 $cachetime = 360 * 60;
 // Serve from the cache if it is younger than $cachetime
@@ -12,8 +12,8 @@ ob_start();
 
 
 error_reporting(0);
-mysql_connect('localhost', 'p', 'p');
-@mysql_select_db('jimaek_jsdelivr') or die("Unable to select database");
+mysql_connect('localhost',  $dbuser, $dbpass);
+@mysql_select_db($dbname) or die("Unable to select database");
 $query = mysql_query("select * from `jimaek_jsdelivr`.`files` ORDER BY `version` DESC ");
 $k     = 0;
 

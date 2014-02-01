@@ -62,7 +62,7 @@ function gogo() {
 
             var search_input = $('.search_input').val();
             var keyword = encodeURIComponent(search_input);
-            var yt_url = 'http://www.jsdelivr.com/code/suggest.php?q=' + keyword;
+            var yt_url = 'code/suggest.php?q=' + keyword;
             $.ajax({
                 type: "GET",
                 url: yt_url,

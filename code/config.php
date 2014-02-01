@@ -1,8 +1,6 @@
 <?php
-$domain = 'www.jsdelivr.com';
-$dbname = 'd';
-$dbuser = 'd';
-$dbpass = 'd';
-
-
+$domain = 'www.jsdelivr.com'; //change to localhost or your local domain
+$dbname = '';
+$dbuser = '';
+$dbpass = '';
 ?>

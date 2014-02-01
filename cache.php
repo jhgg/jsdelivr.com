@@ -3,7 +3,7 @@
 // Based on PHP code by Dennis Pallett: www.phpit.net
 // Please acknowledge use of this code by including this header.
 // location and prefix for cache files
-define('CACHE_PATH', "/jsdelivr.com/www/cache/tmp_");
+define('CACHE_PATH', "cache/tmp_");
 // how long to keep the cache files (hours)
 define('CACHE_TIME', 12);
 // return location and name for cache file
