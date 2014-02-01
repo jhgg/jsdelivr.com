@@ -7,7 +7,7 @@
     </a>
     <div class="container">
 
-        <header>
+        <header class="clearfix">
             <h1><a href="index.php"><img src="images/jsdelivr-logo.png" alt="jsdelivr.com"></a></h1>
             <div id="plugins">
 <a href="http://wordpress.org/extend/plugins/jsdelivr-wordpress-cdn-plugin/"><img width="40" height="40" alt="Get jsDelivr for WordPress" title="Get WordPress Plugin" src="images/wordpress-logo-square.png"></a>

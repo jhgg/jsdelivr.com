@@ -3,7 +3,7 @@
         Official sponsors:<br/>
         <a href="http://www.uservoice.com"><img alt="Sponsored by UserVoice" src="images/uservoice.png"/></a>
         </div>
-    <footer role="contentinfo">
+    <footer>
     Also visit: <a href="http://www.super-ping.com/">super-ping.com</a> <br/> <hr/>
 <div id="copyright"><p>jsDelivr &copy; 2013 | <a href="http://twitter.com/jimaek">@jimaek</a></p>contact@jsdelivr.com | <a href="https://groups.google.com/forum/#!forum/jsdelivr">Mailing Group</a></div>
 

@@ -2,10 +2,6 @@ body {
     background: none repeat scroll 0 0 #F4F4F4;
 }
 
-.clearfix {
-    zoom: 1;
-}
-
 h2 {
     font-size: 1.2em;
 }
@@ -42,124 +38,35 @@ nav ul li a {
     color: #575757;
 }
 
-footer[role="contentinfo"] {
+footer {
     border: 0;
+    clear: both;
+    color: #838383;
     font-size: 1em;
+    line-height: 20px;
     position: relative;
+    text-align: center;
     top: 2em;
     width: 100%;
 }
 
-footer[role="contentinfo"] div.nasainfo {
-    background: url("../images/meatball.png");
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: auto 4em;
-    float: left;
-    margin-bottom: 2em;
-    margin-top: -2em;
-    padding-left: 5em;
-    width: 50%;
-}
-
-footer[role="contentinfo"] div.nasainfo dl {
-    font-size: .85em;
-    position: relative;
-    top: .6em;
-}
-
-footer[role="contentinfo"] div.nasainfo dt:after {
-    content: ":";
-    display: inline-block;
-    padding-right: .3em;
-}
-
-footer[role="contentinfo"] div.openinfo {
-    float: right;
-    width: 40%;
-}
-
-footer[role="contentinfo"] div.openinfo a {
-    background-color: #e3e3e3;
-    -webkit-border-radius: .3em;
-    -moz-border-radius: .3em;
-    border-radius: .3em;
-    color: #575757;
-    float: right;
-    font-size: .85em;
-    padding: 1em;
-    padding-bottom: .5em;
-    padding-top: .5em;
-    position: relative;
-    top: -5px;
-}
-
-footer[role="contentinfo"] div.openinfo p {
-    margin-bottom: .1em;
-    margin-top: 1.2em;
-}
-
-footer[role="contentinfo"] div.openinfo ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-footer[role="contentinfo"] div.openinfo ul li {
-    display: inline;
-    font-size: .5em;
-    padding-right: .3em;
-}
-
-footer[role="contentinfo"] div.openinfo ul li:before {
-    content: "|";
-    display: block;
-    margin-right: .3em;
-}
-
-input#s {
+#s {
     font-size: 1.2em;
     width: 98.6%;
     height: 2em;
 }
 
-div.row {
+.row {
     border-bottom: 1px solid #e3e3e3;
     margin-bottom: 2em;
 }
 
-div.row.first {
+.row.first {
     margin-top: 2em;
 }
 
-div.row p {
+.row p {
     margin-bottom: 1em;
-}
-
-div.row.interior {
-    border: 0;
-}
-
-ul.black li {
-    color: #404040;
-    margin-bottom: 2em;
-}
-
-div.hero-unit {
-    padding-bottom: 15px;
-    padding-top: 30px;
-}
-
-div.hero-unit p {
-    font-size: 1.1em;
-}
-
-div.hero-unit h1 {
-    font-size: 2em;
-}
-
-div.hero-unit a.btn.primary.large {
-    font-size: .9em;
 }
 
 article.project {
@@ -232,137 +139,6 @@ article.project div.content:after {
     width: 36.3%;
     height: 100%;
     z-index: -1;
-}
-
-article.project aside {
-    background-color: white;
-    float: right;
-    font-size: 12px;
-    padding: 5px;
-    width: 25%;
-    z-index: 100;
-}
-
-article.project.flag {
-    -webkit-border-radius: 5px 0 0 5px;
-    -moz-border-radius: 5px 0 0 5px;
-    border-radius: 5px 0 0 5px;
-}
-
-article.project div.flag {
-    background-color: #e3e3e3;
-    -webkit-border-radius: 0 5px 5px 0;
-    -moz-border-radius: 0 5px 5px 0;
-    border-radius: 0 5px 5px 0;
-    padding-top: 2px;
-    position: absolute;
-    right: -20px;
-    top: -1px;
-    width: 20px;
-    height: 100%;
-    z-index: 100;
-}
-
-article.project div.flag img {
-    margin-left: 2.5px;
-    margin-top: 15px;
-}
-
-article.project div.flag a {
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    color: #575757;
-    display: block;
-    font-size: .8em;
-    margin-top: 50px;
-    text-transform: uppercase;
-    transform: rotate(90deg);
-    writing-mode: tb-rl;
-}
-
-a.fork {
-    background-color: #e3e3e3;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    color: #4a4a4a;
-    display: inline-block;
-    font-size: .75em;
-    font-style: normal !important;
-    padding-right: 5px;
-}
-
-ul.tags {
-    list-style-type: none;
-    margin: 0;
-    margin-top: 10px;
-}
-
-ul.tags li {
-    float: left;
-    margin-right: 7px;
-}
-
-ul.tags li a {
-    background-color: #e3e3e3;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    color: #4a4a4a;
-    display: inline-block;
-    font-size: .75em;
-    font-style: normal;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-div.noresults {
-    background-color: #f5f5f5;
-    border: 1px solid #e3e3e3;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    padding: 10px;
-    padding-top: 20px;
-}
-
-div.noresults p {
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-div.noresults ul.tweet_list {
-    list-style-type: none;
-    margin: 0 auto;
-    width: 70%;
-}
-
-div.noresults ul.tweet_list li img {
-    border: 1px solid #e3e3e3;
-    float: left;
-    margin-right: 10px;
-}
-
-div.noresults ul.tweet_list li a.tweet_user {
-    font-weight: bold;
-}
-
-div.noresults ul.tweet_list li span.tweet_time a {
-    font-size: .8em;
-    font-style: italic;
-}
-
-div.navigation a {
-    background-color: #e3e3e3;
-    -webkit-border-radius: .3em;
-    -moz-border-radius: .3em;
-    border-radius: .3em;
-    color: #575757;
-    padding: 1em;
-    padding-bottom: .5em;
-    padding-top: .5em;
 }
 
 #plugins {
@@ -482,13 +258,6 @@ div.navigation a {
     margin-left: -18px;
     margin-top: -13px;
     position: absolute;
-}
-
-footer {
-    clear: both;
-    color: #838383;
-    line-height: 20px;
-    text-align: center;
 }
 
 footer p {
@@ -632,28 +401,22 @@ footer ul li a {
     width: 940px;
 }
 
-.clearfix:before,
-header:before,
 article.project:before {
     content: '';
     display: block;
 }
 
-.clearfix:after,
-header:after,
 article.project:after {
     clear: both;
     content: '';
     display: table;
 }
 
-.hidden,
-footer[role="contentinfo"] div.openinfo ul li:first-child:before {
+.hidden {
     display: none;
 }
 
-header h1 img,
-footer[role="contentinfo"] div.nasainfo dt {
+header h1 img {
     float: left;
 }
 
@@ -674,21 +437,6 @@ article.project div.flag a:hover,
     text-decoration: none;
 }
 
-footer[role="contentinfo"] div.openinfo a:hover,
-div.navigation a:hover {
-    background-color: #005494;
-    color: white;
-    text-decoration: none;
-}
-
-a.fork:hover,
-ul.tags li a:hover {
-    background-color: #005494;
-    color: white;
-    text-decoration: none;
-}
-
-div.noresults ul.tweet_list li,
 #result {
     margin-bottom: 20px;
 }
