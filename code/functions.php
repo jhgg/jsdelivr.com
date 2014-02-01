@@ -5,7 +5,7 @@ function buildresult($name, $ver, $filenames, $author, $homepage, $github, $desc
     $names = str_replace('.', '', $name);
     echo '<article class="project">
         <header>
-        <div class="infobar"><div class="updatebtn"><a data-toggle="modal" data-id="' . $name . '" class="openUpdateDialog" href="#update" ><img title="New version available" src="images/plus.png"></a></div>
+        <div class="infobar"><div class="updatebtn"><a data-toggle="modal" data-id="' . $name . '" class="openUpdateDialog" href="#update" ><img title="New version available" src="img/plus.png"></a></div>
         <h1><a href="http://' . $domain . '/#!' . $name . '">' . $name . '</a>
         <div class="btn-group" id="version_drop">
         <button title="Select a different version"  class="btn btn-small" id="ver' . $names . '">' . $ver . '</button>
@@ -24,7 +24,7 @@ function buildresult($name, $ver, $filenames, $author, $homepage, $github, $desc
     echo '</ul></div> <div class="tags">';
     showtags($name);
     echo '</div></h1></div>
-        <div class="author"><span title="Author Name" class="authorname">' . $author . '</span><span class="social"><a href="' . $github . '"><img title="Github" alt="github" src="images/github.png"></a><a rel="nofollow" href="' . $homepage . '"><img title="Website" alt="web" src="images/web.png"></a></span></div>
+        <div class="author"><span title="Author Name" class="authorname">' . $author . '</span><span class="social"><a href="' . $github . '"><img title="Github" alt="github" src="img/github.png"></a><a rel="nofollow" href="' . $homepage . '"><img title="Website" alt="web" src="img/web.png"></a></span></div>
             <div class="content">
             <p>' . $description . '</p>
         </div>

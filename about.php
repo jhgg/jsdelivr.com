@@ -9,15 +9,15 @@
         <header class="clearfix">
             <h1>
                 <a href="index.php">
-                    <img src="images/jsdelivr-logo.png" alt="jsdelivr.com">
+                    <img src="img/jsdelivr-logo.png" alt="jsdelivr.com">
                 </a>
             </h1>
             <div id="plugins">
                 <a href="http://wordpress.org/extend/plugins/jsdelivr-wordpress-cdn-plugin/">
-                    <img src="images/wordpress-logo-square.png" width="40" height="40" alt="Get jsDelivr for WordPress" title="Get WordPress Plugin">
+                    <img src="img/wordpress-logo-square.png" width="40" height="40" alt="Get jsDelivr for WordPress" title="Get WordPress Plugin">
                 </a>
-                <!--<img src="images/joomla-s.png" width="40" height="40" alt="Get jsDelivr for Joomla" title="Joomla plugin coming *not* soon">
-                    <img src="images/drupal.png" width="40" height="40" alt="Get jsDelivr for Drupal" title="Drupal plugin coming *not* soon">-->
+                <!--<img src="img/joomla-s.png" width="40" height="40" alt="Get jsDelivr for Joomla" title="Joomla plugin coming *not* soon">
+                    <img src="img/drupal.png" width="40" height="40" alt="Get jsDelivr for Drupal" title="Drupal plugin coming *not* soon">-->
             </div>
             <nav>
                 <ul>

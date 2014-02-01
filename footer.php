@@ -4,7 +4,7 @@
         <div class="sponsor">
              Official sponsors:<br>
             <a href="http://www.uservoice.com">
-                <img alt="Sponsored by UserVoice" src="images/uservoice.png" width="122" height="27">
+                <img alt="Sponsored by UserVoice" src="img/uservoice.png" width="122" height="27">
             </a>
         </div>
         <footer>
