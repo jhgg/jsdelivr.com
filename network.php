@@ -9,7 +9,7 @@
     <div class="container">
         <header class="clearfix">
             <a class="pull-left" href="index.php">
-                <img src="img/jsdelivr-logo.png" alt="jsdelivr.com">
+                <img src="img/jsdelivr-logo.png" alt="jsdelivr.com" width="167" height="50">
             </a>
             <div class="plugins pull-left">
                 <a href="http://wordpress.org/extend/plugins/jsdelivr-wordpress-cdn-plugin/">

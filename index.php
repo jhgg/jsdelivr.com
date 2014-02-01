@@ -10,7 +10,7 @@
     <div class="container">
         <header class="clearfix">
             <a class="pull-left" href="index.php">
-                <img src="img/jsdelivr-logo.png" alt="jsdelivr.com">
+                <img src="img/jsdelivr-logo.png" alt="jsdelivr.com" width="167" height="50">
             </a>
             <div class="plugins pull-left">
                 <a href="http://wordpress.org/extend/plugins/jsdelivr-wordpress-cdn-plugin/">
@@ -20,9 +20,9 @@
                     <img src="img/drupal.png" width="40" height="40" alt="Get jsDelivr for Drupal" title="Drupal plugin coming *not* soon">-->
             </div>
             <div class="sponsortop">
-                <a href="https://portal.cdn.net/priceplan/createfreetrialnocc/3?content=whycdnnet&amp;utm_source=jsdelivr&amp;utm_medium=banner&amp;utm_campaign=sponsorship"><img alt="Sponsored by CDN.NET" src="img/cdnnet.png"></a>
-                <a href="http://tracking.maxcdn.com/c/47243/36539/378"><img alt="Sponsored by MaxCDN" src="img/maxcdn.png"></a>
-                <a href="http://www.cedexis.com"><img alt="Sponsored by Cedexis" src="img/cedexis.png"></a>
+                <a href="https://portal.cdn.net/priceplan/createfreetrialnocc/3?content=whycdnnet&amp;utm_source=jsdelivr&amp;utm_medium=banner&amp;utm_campaign=sponsorship"><img src="img/cdnnet.png" alt="Sponsored by CDN.NET" width="53" height="40"></a>
+                <a href="http://tracking.maxcdn.com/c/47243/36539/378"><img src="img/maxcdn.png" alt="Sponsored by MaxCDN" width="110" height="26"></a>
+                <a href="http://www.cedexis.com"><img src="img/cedexis.png" alt="Sponsored by Cedexis" width="85" height="27"></a>
             </div>
             <nav class="pull-right">
                 <ul>
