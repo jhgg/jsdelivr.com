@@ -27,6 +27,7 @@ $google = $_GET["_escaped_fragment_"]; // https://developers.google.com/webmaste
         <![endif]-->
         <link rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/2.3.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="//cdn.jsdelivr.net/hint.css/1.3.0/hint.min.css">
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/github-fork-ribbon/0.1.0/gh-fork-ribbon.css">
         <link rel="stylesheet" href="css/style.css">
 
     </head>
