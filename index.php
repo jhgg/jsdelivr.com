@@ -9,20 +9,22 @@
     </div>
     <div class="container">
         <header class="clearfix">
-            <h1>
-                <a href="index.php"><img src="img/jsdelivr-logo.png" alt="jsdelivr.com"></a>
-            </h1>
-            <div id="plugins">
-                <a href="http://wordpress.org/extend/plugins/jsdelivr-wordpress-cdn-plugin/"><img width="40" height="40" alt="Get jsDelivr for WordPress" title="Get WordPress Plugin" src="img/wordpress-logo-square.png"></a>
-                <!--<img width="40" height="40" alt="Get jsDelivr for Joomla" title="Joomla plugin coming *not* soon" src="img/joomla-s.png">
-                    <img width="40" height="40" alt="Get jsDelivr for Drupal" title="Drupal plugin coming *not* soon" src="img/drupal.png">-->
+            <a class="pull-left" href="index.php">
+                <img src="img/jsdelivr-logo.png" alt="jsdelivr.com">
+            </a>
+            <div class="plugins pull-left">
+                <a href="http://wordpress.org/extend/plugins/jsdelivr-wordpress-cdn-plugin/">
+                    <img src="img/wordpress-logo-square.png" width="40" height="40" alt="Get jsDelivr for WordPress" title="Get WordPress Plugin">
+                </a>
+                <!--<img src="img/joomla-s.png" width="40" height="40" alt="Get jsDelivr for Joomla" title="Joomla plugin coming *not* soon">
+                    <img src="img/drupal.png" width="40" height="40" alt="Get jsDelivr for Drupal" title="Drupal plugin coming *not* soon">-->
             </div>
-            <div id="sponsortop">
+            <div class="sponsortop">
                 <a href="https://portal.cdn.net/priceplan/createfreetrialnocc/3?content=whycdnnet&amp;utm_source=jsdelivr&amp;utm_medium=banner&amp;utm_campaign=sponsorship"><img alt="Sponsored by CDN.NET" src="img/cdnnet.png"></a>
                 <a href="http://tracking.maxcdn.com/c/47243/36539/378"><img alt="Sponsored by MaxCDN" src="img/maxcdn.png"></a>
                 <a href="http://www.cedexis.com"><img alt="Sponsored by Cedexis" src="img/cedexis.png"></a>
             </div>
-            <nav>
+            <nav class="pull-right">
                 <ul>
                     <li><a href="network.php">Network</a></li>
                     <li><a href="about.php">About</a></li>
