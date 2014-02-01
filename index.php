@@ -33,7 +33,7 @@
         </header>
 <h3>A free super-fast CDN for developers and webmasters.</h3>
 <p style="margin-top:-17px;">Search for javascript libraries, jQuery plugins, fonts, CSS frameworks and anything else you might need. You can submit if something is missing.<p>
-<div class="hosted"><p><span style="text-shadow: 1px 1px 1px #969696; font-size:24px; color:#000; ">870</span> projects hosted</p></div>
+<div class="hosted"><p><span style="text-shadow: 1px 1px 1px #969696; font-size:24px; color:#000;">870</span> projects hosted</p></div>
     <label class="hide" for="s">Search:</label>
     <input type="text" class="search_input" id="s" autofocus placeholder="What are you looking for?" />
 <div id="result">

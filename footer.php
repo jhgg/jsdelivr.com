@@ -1,7 +1,7 @@
-        <div id="stuff">
+        <div class="stuff">
             <div id="shareme" data-url="http://www.jsdelivr.com" data-text="jsDelivr - A free CDN for javascript and jquery plugins" data-title="share this page"></div>
         </div>
-        <div id="sponsor">
+        <div class="sponsor">
              Official sponsors:<br/>
             <a href="http://www.uservoice.com">
                 <img alt="Sponsored by UserVoice" src="images/uservoice.png" width="122" height="27">

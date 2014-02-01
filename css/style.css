@@ -274,13 +274,13 @@ article.project div.content:after {
     position: absolute;
 }
 
-#stuff {
+.stuff {
     margin-top: -20px;
     position: absolute;
     width: 180px;
 }
 
-#sponsor {
+.sponsor {
     float: right;
     margin-top: -26px;
     width: 380px;
