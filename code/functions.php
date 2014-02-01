@@ -3,7 +3,7 @@
 function buildresult($name, $ver, $filenames, $author, $homepage, $github, $description, $arra2, $domain) {
 
     $names = str_replace('.', '', $name);
-    echo '<article class="project">
+    echo '<article class="project clearfix">
         <header>
         <div class="infobar"><div class="updatebtn"><a data-toggle="modal" data-id="' . $name . '" class="openUpdateDialog" href="#update" ><img title="New version available" src="img/plus.png"></a></div>
         <h1><a href="http://' . $domain . '/#!' . $name . '">' . $name . '</a>

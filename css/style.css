@@ -399,26 +399,6 @@ footer ul li a {
     width: 940px;
 }
 
-.project:before {
-    content: '';
-    display: block;
-}
-
-.project:after {
-    clear: both;
-    content: '';
-    display: table;
-}
-
-.project div.flag:hover {
-    background-color: #005494;
-}
-
-.project div.flag:hover a {
-    color: white;
-}
-
-.project div.flag a:hover,
 .read-more:hover,
 #shareme .box a:hover {
     text-decoration: none;
