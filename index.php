@@ -35,12 +35,12 @@
             </nav>
         </header>
         <h3>A free super-fast CDN for developers and webmasters.</h3>
-        <p style="margin-top:-17px;">
+        <p class="header-note">
             Search for javascript libraries, jQuery plugins, fonts, CSS frameworks and anything else you might need. You can submit if something is missing.
             <p>
                 <div class="hosted">
                     <p>
-                        <span style="text-shadow: 1px 1px 1px #969696; font-size:24px; color:#000;">870</span> projects hosted
+                        <span>870</span> projects hosted
                     </p>
                 </div>
                 <label class="hide" for="s">Search:</label>
@@ -53,7 +53,7 @@
                     <img src="img/ajax-loader.gif" alt="Loading" width="16" height="16">
 <?php } ?>
                 </div>
-                <div class="modal hide" id="update" style="width:290px; margin-left: -170px;">
+                <div class="modal hide" id="update">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">x</button>
                         <h3>A new version available?</h3>

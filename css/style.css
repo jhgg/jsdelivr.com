@@ -76,7 +76,7 @@ footer p {
 
 footer ul {
     display: inline-block;
-    list-style: none outside none;
+    list-style-type: none;
 }
 
 footer ul li a {
@@ -225,12 +225,8 @@ footer ul li a {
 
 .authorname {
     color: #495961;
-    font-family: "Lucida Sans Unicode", sans-serif;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: normal;
+    font: normal normal 26px/1.2em "Lucida Sans Unicode", sans-serif;
     letter-spacing: -1px;
-    line-height: 1.2em;
     text-transform: none;
 }
 
@@ -339,16 +335,28 @@ footer ul li a {
     margin: 0 20px 0 0;
 }
 
+.header-note {
+    margin-top: -12px;
+}
+
 .hosted {
-    -webkit-border-radius: 3px 3px 3px 3px;
-    -moz-border-radius: 3px 3px 3px 3px;
-    border-radius: 3px 3px 3px 3px;
     color: #A5A5A5;
     font-size: 15px;
     margin-left: 780px;
     margin-top: 8px;
     padding: 4px 4px 3px;
     position: absolute;
+}
+
+.hosted span {
+    color: black;
+    font-size: 24px;
+    text-shadow: 1px 1px 1px #969696;
+}
+
+#update {
+    margin-left: -170px;
+    width: 290px;
 }
 
 .download {
