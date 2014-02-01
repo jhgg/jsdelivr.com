@@ -11,12 +11,9 @@ packagesmain.php - used by API
 
 To get it to work:
 
-* Create files/ directory and put some folders from the main repo
+* Put project directories inside files/
 * Modify config.php with your DB login information
-* Modify scan.php with DB login information (yeap its stupid)
 * Run scan.php and the DB should get populated with data
-* Modify custom.js:59 and change the hostname to point to your local setup.
-* Modify footer.php:33 and change the hostname to point to your local setup like above.
 
 
 **WARNING**
