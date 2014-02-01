@@ -50,6 +50,20 @@ footer {
     width: 100%;
 }
 
+footer p {
+    color: #989898;
+}
+
+footer ul {
+    display: inline-block;
+    list-style: none outside none;
+}
+
+footer ul li a {
+    font-size: 12px;
+    margin: 5px;
+}
+
 #s {
     font-size: 1.2em;
     width: 98.6%;
@@ -260,20 +274,6 @@ article.project div.content:after {
     position: absolute;
 }
 
-footer p {
-    color: #989898;
-}
-
-footer ul li {
-    display: inline;
-    list-style: none outside none;
-}
-
-footer ul li a {
-    font-size: 12px;
-    margin: 5px;
-}
-
 #stuff {
     margin-top: -20px;
     position: absolute;
@@ -410,10 +410,6 @@ article.project:after {
     clear: both;
     content: '';
     display: table;
-}
-
-.hidden {
-    display: none;
 }
 
 header h1 img {
