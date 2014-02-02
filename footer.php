@@ -21,9 +21,7 @@
             </ul>
         </footer>
     </div> <!-- /container -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src='//cdn.jsdelivr.net/bootstrap/2.3.2/js/bootstrap.min.js'></script>
-    <script src='//cdn.jsdelivr.net/sharrre/1.3.5/jquery.sharrre.min.js'></script>
+    <script src="//cdn.jsdelivr.net/g/jquery@1.11.0,bootstrap@2.3.2,sharrre@1.3.5"></script>
     <script src='js/custom.js'></script>
     <script src='js/jquery.showMore.js'></script>
 
