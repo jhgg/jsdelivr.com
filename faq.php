@@ -42,7 +42,7 @@
                 </p>
                 <h2>Why are some projects tagged as version 0.1?</h2>
                 <p>
-                    Some times its hard to find what version is a project because the developer doesn't mention it anywhere.
+                    Some times it's hard to find what version is a project because the developer doesn't mention it anywhere.
                     In these cases we just use 0.1 as the starting version and increase it on next updates.
                 </p>
 
