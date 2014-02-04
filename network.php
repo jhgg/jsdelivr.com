@@ -11,13 +11,6 @@
             <a class="pull-left" href="index.php">
                 <img src="img/jsdelivr-logo.png" alt="jsdelivr.com" width="167" height="50">
             </a>
-            <div class="plugins pull-left">
-                <a href="http://wordpress.org/extend/plugins/jsdelivr-wordpress-cdn-plugin/">
-                    <img src="img/wordpress-logo-square.png" width="40" height="40" alt="Get jsDelivr for WordPress" title="Get WordPress Plugin">
-                </a>
-                <!--<img src="img/joomla-s.png" width="40" height="40" alt="Get jsDelivr for Joomla" title="Joomla plugin coming *not* soon">
-                    <img src="img/drupal.png" width="40" height="40" alt="Get jsDelivr for Drupal" title="Drupal plugin coming *not* soon">-->
-            </div>
             <nav class="pull-right">
                 <ul>
                     <li><a href="network.php">Network</a></li>
@@ -40,7 +33,7 @@
             <h3>Features</h3>
             <div class="span3">
                 <ul>
-                    <li>Global presense</li>
+                    <li>Global presence</li>
                     <li>DDOS Protected</li>
                     <li>Enterprise Hardware</li>
                 </ul>
@@ -49,7 +42,7 @@
                 <ul>
                     <li>Multi-CDN infrastructure</li>
                     <li>Failover systems</li>
-                    <li>Cloud Based DNS</li>
+                    <li>Akamai Hosted DNS</li>
                 </ul>
             </div>
             <div class="span3">
@@ -61,7 +54,7 @@
             </div>
             <div class="span2">
                 <ul>
-                    <li>Powerful Network</li>
+                    <li>RUM based routing</li>
                     <li>HTTPS Access</li>
                 </ul>
             </div>

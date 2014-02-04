@@ -11,13 +11,6 @@
             <a class="pull-left" href="index.php">
                 <img src="img/jsdelivr-logo.png" alt="jsdelivr.com" width="167" height="50">
             </a>
-            <div class="plugins pull-left">
-                <a href="http://wordpress.org/extend/plugins/jsdelivr-wordpress-cdn-plugin/">
-                    <img src="img/wordpress-logo-square.png" width="40" height="40" alt="Get jsDelivr for WordPress" title="Get WordPress Plugin">
-                </a>
-                <!--<img src="img/joomla-s.png" width="40" height="40" alt="Get jsDelivr for Joomla" title="Joomla plugin coming *not* soon">
-                    <img src="img/drupal.png" width="40" height="40" alt="Get jsDelivr for Drupal" title="Drupal plugin coming *not* soon">-->
-            </div>
             <nav class="pull-right">
                 <ul>
                     <li><a href="network.php">Network</a></li>
@@ -51,13 +44,7 @@
                     In these cases we just use 0.1 as the starting version and increase it on next updates.
                 </p>
 
-                <h2>Why do some files lead to 404 errors?</h2>
-                <p>
-                    This happens when the propagation through the CDN takes longer than usual.
-                    Just wait a little bit and the error should fix.
-                </p>
-
-                <h2>Many projects have wrong Github links</h2>
+                <h2>Some projects have wrong Github links</h2>
                 <p>
                     Yes, unfortunately in the first version of jsDelivr all projects only had a homepage link.
                     In the new version we decided to add a github link too. So all the files added before the update
@@ -67,12 +54,6 @@
                 <h2>Can I use HTTPS to load files from your CDN?</h2>
                 <p>
                     Yes, we have a valid SSL certificate. All cdn.jsdelivr.net traffic can be served via HTTPS without any problems.
-                </p>
-
-                <h2>Do you actually use the Github repo?</h2>
-                <p>
-                    Yes, all changes made to the github repo of jsDelivr are synced to the CDN.
-                    Create pulls, open tickets, make a difference.
                 </p>
 
                 <h2>How are you making money?</h2>

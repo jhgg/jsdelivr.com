@@ -8,16 +8,15 @@
             </a>
         </div>
         <footer>
-            <p>Also visit: <a href="http://www.super-ping.com/">super-ping.com</a></p>
+            <p>Also visit: <a href="http://www.super-ping.com/">super-ping.com</a> and <a href="http://www.cdnperf.com/">CDNperf</a></p>
             <hr>
             <p>
-                jsDelivr &copy; 2013 | <a href="https://twitter.com/jimaek">@jimaek</a>
+                jsDelivr &copy; 2014 | <a href="https://twitter.com/jimaek">@jimaek</a>
              </p>
              <ul>
                 <li>contact@jsdelivr.com | <a href="https://groups.google.com/forum/#!forum/jsdelivr">Mailing Group</a></li>
-                <li>Dev: <a href="http://api.jsdelivr.com/packages.php">Packages</a> - <a href="http://www.jsdelivr.com/hash.xml">Packages &amp; Hash</a></li>
+                <li>For Developers: <a href="https://github.com/jsdelivr/api">Official API</a></li>
                 <li>Design based on NASA.Code</li>
-                <li>Support us by donating Bitcoins<br>1HZrTcdVieoDsihhBhE3gcnGxR9isJENMT</li>
             </ul>
         </footer>
     </div> <!-- /container -->

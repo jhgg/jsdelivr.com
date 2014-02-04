@@ -12,13 +12,6 @@
             <a class="pull-left" href="index.php">
                 <img src="img/jsdelivr-logo.png" alt="jsdelivr.com" width="167" height="50">
             </a>
-            <div class="plugins pull-left">
-                <a href="http://wordpress.org/extend/plugins/jsdelivr-wordpress-cdn-plugin/">
-                    <img src="img/wordpress-logo-square.png" width="40" height="40" alt="Get jsDelivr for WordPress" title="Get WordPress Plugin">
-                </a>
-                <!--<img src="img/joomla-s.png" width="40" height="40" alt="Get jsDelivr for Joomla" title="Joomla plugin coming *not* soon">
-                    <img src="img/drupal.png" width="40" height="40" alt="Get jsDelivr for Drupal" title="Drupal plugin coming *not* soon">-->
-            </div>
             <div class="sponsortop">
                 <a href="https://portal.cdn.net/priceplan/createfreetrialnocc/3?content=whycdnnet&amp;utm_source=jsdelivr&amp;utm_medium=banner&amp;utm_campaign=sponsorship"><img src="img/cdnnet.png" alt="Sponsored by CDN.NET" width="53" height="40"></a>
                 <a href="http://tracking.maxcdn.com/c/47243/36539/378"><img src="img/maxcdn.png" alt="Sponsored by MaxCDN" width="110" height="26"></a>
@@ -40,7 +33,7 @@
             <p>
                 <div class="hosted">
                     <p>
-                        <span>870</span> projects hosted
+                        <span>914</span> projects hosted
                     </p>
                 </div>
                 <label class="hide" for="s">Search:</label>
