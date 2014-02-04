@@ -21,17 +21,36 @@ function buildresult($name, $ver, $filenames, $author, $homepage, $github, $desc
     }
     $arra2 = '';
 
-    echo '</ul></div> <div class="tags">';
+    echo '</ul></div><div class="tags">';
     showtags($name);
     echo '</div></h1></div>
-        <div class="author"><span title="Author Name" class="authorname">' . $author . '</span><span class="social"><a href="' . $github . '"><img title="Github" alt="github" src="img/github.png"></a><a rel="nofollow" href="' . $homepage . '"><img title="Website" alt="web" src="img/web.png"></a></span></div>
-            <div class="content">
+        <div class="author">
+            <span title="Author Name" class="authorname">' . $author . '</span>
+            <span class="social">
+                <a href="' . $github . '">
+                    <img title="Github" alt="github" src="img/github.png">
+                </a>
+                <a rel="nofollow" href="' . $homepage . '">
+                    <img title="Website" alt="web" src="img/web.png">
+                </a>
+            </span>
+        </div>
+        <div class="content">
             <p>' . $description . '</p>
         </div>
-        </header><div style=" margin-top: 8px; position: absolute;right: 120px;"><a href="#' . $names . 'modal" data-toggle="modal" class="download">Integration</a></div><div style=" margin-top: 8px; position: absolute;right: 10px;"><a href="//cdn.jsdelivr.net/' . $name . '/' . $ver . '/' . $name . '.zip" class="download">Download Zip</a></div><div id="fileli' . $names . '" class="files">
+        </header>
+        <div class="integration">
+            <a href="#' . $names . 'modal" data-toggle="modal" class="download">Integration</a>
+        </div>
+        <div class="integration">
+            <a href="//cdn.jsdelivr.net/' . $name . '/' . $ver . '/' . $name . '.zip" class="download">Download Zip</a>
+        </div>
+        <div id="fileli' . $names . '" class="files">
             <table class="table table-striped table-hover">
                 <thead>
-                <tr><th>CDN Files</th></tr>
+                    <tr>
+                        <th>CDN Files</th>
+                    </tr>
                 </thead>
                 <tbody> ';
 

@@ -359,6 +359,12 @@ footer ul li a {
     width: 290px;
 }
 
+.integration {
+    margin-top: 8px;
+    position: absolute;
+    right: 120px;
+}
+
 .download {
     background-color: #D2D2D2;
     -webkit-border-radius: 5px 5px 5px 5px;
