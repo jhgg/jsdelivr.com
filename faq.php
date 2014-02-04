@@ -30,17 +30,19 @@
                 <p>
                     CDN traffic is expensive, yes. But all of our traffic and services are sponsored by awesome companies
                     that want to make the web a faster and better place. Check out the footer for credits.<br>
-                    It means that it doesnt matter how much traffic a plugin or project can generate, there is nothing to worry about.
+                    It means that it doesn't matter how much traffic a plugin or project can generate, there is nothing to worry about.
                 </p>
-
                 <h2>Are there any bandwidth limits?</h2>
                 <p>
                     No and there will never be.
                 </p>
-
+				<h2>Does MaxCDN own jsDelivr?</h2>
+                <p>
+                    No, MaxCDN is one of our biggest sponsors but they don't own or influence the project in any way. Neither does any other company. 
+                </p>
                 <h2>Why are some projects tagged as version 0.1?</h2>
                 <p>
-                    Some times its hard to find what version is a project because the developer doesnt mention it anywhere.
+                    Some times its hard to find what version is a project because the developer doesn't mention it anywhere.
                     In these cases we just use 0.1 as the starting version and increase it on next updates.
                 </p>
 
