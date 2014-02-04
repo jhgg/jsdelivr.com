@@ -5,7 +5,7 @@ function buildresult($name, $ver, $filenames, $author, $homepage, $github, $desc
     $names = str_replace('.', '', $name);
     echo '<article class="project clearfix">
         <header>
-        <div class="infobar"><div class="updatebtn"><a data-toggle="modal" data-id="' . $name . '" class="openUpdateDialog" href="#update" ><img title="New version available" src="img/plus.png"></a></div>
+        <div class="infobar"><div class="updatebtn"><a data-toggle="modal" data-id="' . $name . '" class="openUpdateDialog" href="#update" ><img title="New version available" src="img/plus.png" alt="Plus" width="26" height="26"></a></div>
         <h1><a href="http://' . $domain . '/#!' . $name . '">' . $name . '</a>
         <div class="btn-group" id="version_drop">
         <button title="Select a different version"  class="btn btn-small" id="ver' . $names . '">' . $ver . '</button>
