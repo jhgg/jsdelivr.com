@@ -89,7 +89,7 @@
                     Write blog posts or submit new ideas and features. Just send us an email.
                 </p>
 
-                <h2>Who's is behind jsDelivr?</h2>
+                <h2>Who is behind jsDelivr?</h2>
                 <p>
                     Basically just me, Dmitriy A. or <a href="https://twitter.com/jimaek">@jimaek</a>.
                     But a lot of other people are involved, giving their advice and helping me out.
