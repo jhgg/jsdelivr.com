@@ -33,6 +33,10 @@ nav ul li a {
     color: #575757;
 }
 
+nav ul li a:focus {
+    text-decoration: none;
+}
+
 nav ul li a:hover {
     background-color: #005494;
     color: white;
@@ -234,6 +238,10 @@ footer ul li a {
     float: right;
 }
 
+.author a {
+    display: inline-block;
+}
+
 .infobar {
     float: left;
     position: absolute;
@@ -246,7 +254,7 @@ footer ul li a {
 }
 
 .social img:hover {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .tags span {
@@ -354,11 +362,6 @@ footer ul li a {
     text-shadow: 1px 1px 1px #969696;
 }
 
-#update {
-    margin-left: -170px;
-    width: 290px;
-}
-
 .integration,
 .integration-zip {
     margin-top: 8px;
@@ -371,6 +374,10 @@ footer ul li a {
 
 .integration-zip {
     right: 10px;
+}
+
+.download:focus {
+    text-decoration: none;
 }
 
 .download {

@@ -46,21 +46,19 @@
                     <img src="img/ajax-loader.gif" alt="Loading" width="16" height="16">
 <?php } ?>
                 </div>
-                <div class="modal hide" id="update">
+                <div class="modal hide fade" id="update">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                         <h3>A new version available?</h3>
                     </div>
                     <div class="modal-body">
-                        Please enter your email and press send.<br>
+                        <p>Please enter your email and press send.<br>
                         We will receive your request and will try to find a newer version of this project.<br>
-                        If we can't we will contact you.
-                        <form method="post" action='code/newversion.php' name="update_form">
+                        If we can't we will contact you.</p>
+                        <form method="post" class="form-inline" action="code/newversion.php" name="update_form">
                             <input type="text" class="span3" name="project" id="project" placeholder="Project" readonly>
                             <input type="text" class="span3" name="email" id="email" placeholder="Email">
-                            <p>
-                                <button type="submit" class="btn btn-primary">Send</button>
-                            </p>
+                            <button type="submit" class="btn btn-primary">Send</button>
                         </form>
                     </div>
                 </div>
