@@ -94,17 +94,17 @@ function quickview($names, $vers, $filenamesarr) {
     foreach ($names as $name) {
         $name2 = str_replace('.', '', $name);
 
-        echo '<div class="modal bigmodal hide" id="' . $name2 . 'modal" style="">
+        echo '<div class="modal bigmodal hide fade" id="' . $name2 . 'modal" style="">
     <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
         <h3>Quick Integration Code</h3>
     </div>
     <div class="modal-body">
-    <textarea class="field span11" rows="15">';
-        parsefilenames($name, $vers, $filenamesarr);
-        echo '</textarea>
-    </div>
-</div>';
+        <textarea class="field span11" rows="15">';
+            parsefilenames($name, $vers, $filenamesarr);
+            echo '</textarea>
+        </div>
+    </div>';
     }
 }
 

@@ -15,10 +15,10 @@ while ($row = mysql_fetch_assoc($query)) {
 
     $name2 = str_replace('.', '', $name);
 
-    echo '<div class="modal bigmodal" id="' . $name2 . 'modal" style="">
+    echo '<div class="modal bigmodal hide fade" id="' . $name2 . 'modal" style="">
     <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-    <h3>Quick Integration Code</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3>Quick Integration Code</h3>
     </div>
     <div class="modal-body">
     <textarea class="field span11" rows="15">';
