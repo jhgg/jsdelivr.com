@@ -1,13 +1,12 @@
-        <div class="stuff">
-            <div id="shareme" data-url="http://www.jsdelivr.com" data-text="jsDelivr - A free CDN for javascript and jquery plugins" data-title="share this page"></div>
-        </div>
-        <div class="sponsor">
-             Official sponsors:<br>
-            <a href="http://www.uservoice.com">
-                <img alt="Sponsored by UserVoice" src="img/uservoice.png" width="122" height="27">
-            </a>
-        </div>
         <footer>
+            <div id="shareme" data-url="http://www.jsdelivr.com" data-text="jsDelivr - A free CDN for javascript and jquery plugins" data-title="share this page"></div>
+            <div class="pull-right">
+                <p>Official sponsors:<br>
+                    <a href="http://www.uservoice.com">
+                        <img alt="Sponsored by UserVoice" src="img/uservoice.png" width="122" height="27">
+                    </a>
+                <p>
+            </div>
             <p>Also visit: <a href="http://www.super-ping.com/">super-ping.com</a> and <a href="http://www.cdnperf.com/">CDNperf</a></p>
             <hr>
             <p>

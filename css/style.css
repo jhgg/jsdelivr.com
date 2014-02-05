@@ -63,15 +63,9 @@ nav ul li a:hover {
 }
 
 footer {
-    border: 0;
-    clear: both;
     color: #838383;
-    font-size: 1em;
-    line-height: 20px;
-    position: relative;
+    margin: 20px auto;
     text-align: center;
-    top: 2em;
-    width: 100%;
 }
 
 footer p {
@@ -268,19 +262,6 @@ footer ul li a {
     position: absolute;
 }
 
-.stuff {
-    margin-top: -20px;
-    position: absolute;
-    width: 180px;
-}
-
-.sponsor {
-    float: right;
-    margin-top: -26px;
-    width: 380px;
-    height: 27px;
-}
-
 .sponsortop {
     float: left;
     height: 40px;
@@ -290,28 +271,32 @@ footer ul li a {
 
 #shareme .box {
     float: left;
-    margin: 5% 8% 0;
-    width: 100%;
 }
 
 #shareme .box a {
     color: #404040;
+    text-shadow: 0 1px 1px rgba(167,167,167,.4);
+}
+
+#shareme .box a:hover {
+    text-decoration: none;
 }
 
 #shareme .count {
     border-right: 2px solid #57B8D1;
     float: left;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
-    line-height: 15px;
+    line-height: 40px;
     padding-right: 10px;
 }
 
 #shareme .share {
     float: left;
-    font-size: 15px;
+    font-size: 20px;
     margin-left: 10px;
-    width: 110px;
+    text-align: left;
+    width: 82px;
 }
 
 #shareme .buttons {
@@ -322,7 +307,6 @@ footer ul li a {
     box-shadow: 0 1px 2px rgba(0,0,0,0.1);
     padding: 10px;
     position: absolute;
-    width: 320px;
 }
 
 #shareme .button {
@@ -420,8 +404,7 @@ footer ul li a {
     width: 940px;
 }
 
-.read-more:hover,
-#shareme .box a:hover {
+.read-more:hover {
     text-decoration: none;
 }
 
