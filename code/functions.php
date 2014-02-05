@@ -46,7 +46,7 @@ function buildresult($name, $ver, $filenames, $author, $homepage, $github, $desc
         <div class="integration">
             <a href="#' . $names . 'modal" data-toggle="modal" class="download">Integration</a>
         </div>
-        <div class="integration">
+        <div class="integration-zip">
             <a href="//cdn.jsdelivr.net/' . $name . '/' . $ver . '/' . $name . '.zip" class="download">Download Zip</a>
         </div>
         <div id="fileli' . $names . '" class="files">

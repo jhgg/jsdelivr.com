@@ -359,10 +359,18 @@ footer ul li a {
     width: 290px;
 }
 
-.integration {
+.integration,
+.integration-zip {
     margin-top: 8px;
     position: absolute;
+}
+
+.integration {
     right: 120px;
+}
+
+.integration-zip {
+    right: 10px;
 }
 
 .download {
