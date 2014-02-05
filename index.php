@@ -48,7 +48,7 @@
                 </div>
                 <div class="modal hide" id="update">
                     <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">x</button>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                         <h3>A new version available?</h3>
                     </div>
                     <div class="modal-body">

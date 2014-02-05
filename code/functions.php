@@ -5,12 +5,16 @@ function buildresult($name, $ver, $filenames, $author, $homepage, $github, $desc
     $names = str_replace('.', '', $name);
     echo '<article class="project clearfix">
         <header>
-        <div class="infobar"><div class="updatebtn"><a data-toggle="modal" data-id="' . $name . '" class="openUpdateDialog" href="#update" ><img title="New version available" src="img/plus.png" alt="Plus" width="26" height="26"></a></div>
+        <div class="infobar"><div class="updatebtn">
+            <a data-toggle="modal" data-id="' . $name . '" class="openUpdateDialog" href="#update">
+                <img title="New version available" src="img/plus.png" alt="Plus" width="26" height="26">
+            </a>
+        </div>
         <h1><a href="http://' . $domain . '/#!' . $name . '">' . $name . '</a>
         <div class="btn-group" id="version_drop">
         <button title="Select a different version"  class="btn btn-small" id="ver' . $names . '">' . $ver . '</button>
         <button title="Select a different version" data-id="' . $name . '" id="dbut"  data-dropdown="#dropdown-1" data-toggle="dropdown" class="btn btn-small dropdown-toggle">
-        <span class="caret"></span>
+            <span class="caret"></span>
         </button>
 
         <ul id="dropdown-1" class="dropdown-menu">';
@@ -28,10 +32,10 @@ function buildresult($name, $ver, $filenames, $author, $homepage, $github, $desc
             <span title="Author Name" class="authorname">' . $author . '</span>
             <span class="social">
                 <a href="' . $github . '">
-                    <img title="Github" alt="github" src="img/github.png">
+                    <img src="img/github.png" alt="github" title="Github" width="26" height="26">
                 </a>
                 <a rel="nofollow" href="' . $homepage . '">
-                    <img title="Website" alt="web" src="img/web.png">
+                    <img src="img/web.png" alt="web" title="Website" width="26" height="26">
                 </a>
             </span>
         </div>
@@ -92,8 +96,8 @@ function quickview($names, $vers, $filenamesarr) {
 
         echo '<div class="modal bigmodal hide" id="' . $name2 . 'modal" style="">
     <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal">x</button>
-    <h3>Quick Integration Code</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3>Quick Integration Code</h3>
     </div>
     <div class="modal-body">
     <textarea class="field span11" rows="15">';
