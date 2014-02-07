@@ -12,8 +12,9 @@ packagesmain.php - used by API
 To get it to work:
 
 * Put project directories inside files/
+* Create a MySQL database using structure from DB_structure.sql
 * Modify config.php with your DB login information
-* Run scan.php and the DB should get populated with data
+* Run scan.php and the DB should get populated with data.
 
 
 **WARNING**
